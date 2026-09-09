@@ -27,7 +27,7 @@ author:
   # Chinese name, rendered on its own line under the English one.
   # Kept as a separate field on purpose: seo.html interpolates site.title
   # into <meta content="..."> unescaped, so a <br> in the name breaks those tags.
-  name_cn          : ""
+  name_cn          :   # e.g., "何某某" — plain text, no <br>
   avatar           : "images/avatar.jpg"
   bio              : "National University of Defense Technology"
   location         : "Changsha, China"
