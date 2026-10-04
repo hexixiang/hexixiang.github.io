@@ -82,6 +82,7 @@ I am always glad to talk about research or collaboration &mdash; feel free to re
 # 🔥 News
 
 <ul style="margin:0; padding-left:1.2em;">
+  <li><p style='text-align:justify; margin:4px 0'><i>2026.09</i>: &nbsp;🎉🎉 <strong>StemBind</strong> is accepted by <span style="color:#c0392b; font-weight:600;">NeurIPS 2026</span>.</p></li>
   <li><p style='text-align:justify; margin:4px 0'><i>2026.09</i>: &nbsp;🔥🔥 <strong>MT-SDPO</strong> is released on <a href="https://arxiv.org/abs/2609.02548">arXiv</a>, together with the SciKnowEval-L3 data, training code and evaluation protocol.</p></li>
   <li><p style='text-align:justify; margin:4px 0'><i>2026.05</i>: &nbsp;🔥🔥 <strong>StemBind</strong> is released on <a href="https://arxiv.org/abs/2606.00148">arXiv</a>, with a <a href="https://hexixiang.github.io/StemBind/">project page</a> and public leaderboard.</p></li>
   <li><p style='text-align:justify; margin:4px 0'><i>2026.05</i>: &nbsp;🎉🎉 <strong>AVSPO</strong> is accepted by <span style="color:#c0392b; font-weight:600;">ICML 2026</span>.</p></li>
@@ -124,16 +125,16 @@ I am always glad to talk about research or collaboration &mdash; feel free to re
 
 <ol class="publication-list">
   <li class="publication-item">
+    <div class="pub-title"><a href="https://arxiv.org/abs/2606.00148">StemBind: When MLLMs Get Lost Between Rules and Instances in Abstract Visual Reasoning</a></div>
+    <div class="pub-authors"><strong><u>Xixiang He</u></strong>, Baiqi Wu, Xingming Li, Ao Cheng, Qiyao Sun, Xuanyu Ji, Qingyong Hu<sup>*</sup></div>
+    <div class="pub-venue"><span class="pub-badge">NeurIPS 2026</span> Conference on Neural Information Processing Systems, 2026</div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2606.00148">arXiv</a><a href="https://hexixiang.github.io/StemBind/">Project Page</a></div>
+  </li>
+  <li class="publication-item">
     <div class="pub-title"><a href="https://arxiv.org/abs/2609.02548">Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation for Multi-Domain LLMs</a></div>
     <div class="pub-authors"><strong><u>Xixiang He</u></strong>, Xingming Li, Baiqi Wu, Qiyao Sun, Xuanyu Ji, Ao Cheng, Qingyong Hu<sup>*</sup></div>
     <div class="pub-venue"><span class="pub-badge pub-badge-preprint">Preprint</span> arXiv preprint arXiv:2609.02548, 2026</div>
     <div class="pub-links"><a href="https://arxiv.org/abs/2609.02548">arXiv</a><a href="https://github.com/hexixiang/MT-SDPO">Code</a></div>
-  </li>
-  <li class="publication-item">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2606.00148">StemBind: When MLLMs Get Lost Between Rules and Instances in Abstract Visual Reasoning</a></div>
-    <div class="pub-authors"><strong><u>Xixiang He</u></strong>, Baiqi Wu, Xingming Li, Ao Cheng, Qiyao Sun, Xuanyu Ji, Qingyong Hu<sup>*</sup></div>
-    <div class="pub-venue"><span class="pub-badge pub-badge-preprint">Preprint</span> arXiv preprint arXiv:2606.00148, 2026</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2606.00148">arXiv</a><a href="https://hexixiang.github.io/StemBind/">Project Page</a></div>
   </li>
   <li class="publication-item">
     <div class="pub-title"><a href="https://arxiv.org/abs/2605.21125">Advantage Collapse in Group Relative Policy Optimization: Diagnosis and Mitigation</a></div>
