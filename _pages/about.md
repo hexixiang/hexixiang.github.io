@@ -102,9 +102,25 @@ I am always glad to talk about research or collaboration &mdash; feel free to re
 
 # 📝 Publications
 
+<h2 id="preprints">Preprints</h2>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/pub/mtsdpo.jpg' alt="MT-SDPO: answer-verified multi-teacher self-distillation pipeline" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation for Multi-Domain LLMs**](https://arxiv.org/abs/2609.02548)
+
+🧑‍💻 **Xixiang He**, Xingming Li, Baiqi Wu, Qiyao Sun, Xuanyu Ji, Ao Cheng, Qingyong Hu#
+
+arXiv preprint, 2026.
+
+[[Paper]](https://arxiv.org/abs/2609.02548) \| [[Github]](https://github.com/hexixiang/MT-SDPO)
+
+</div>
+</div>
+
 <h2 id="accepted-papers">Accepted Papers</h2>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='images/pub/stembind.jpg' alt="StemBind benchmark taxonomy and hierarchical P/R/F annotation per shared stem" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='images/pub/stembind.jpg' alt="StemBind overview: nine operations, shared-stem P/R/F probes, and S1-S4 process annotation" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**StemBind: When MLLMs Get Lost Between Rules and Instances in Abstract Visual Reasoning**](https://arxiv.org/abs/2606.00148)
@@ -184,22 +200,6 @@ I am always glad to talk about research or collaboration &mdash; feel free to re
 🏛️ IEEE International Conference on Multimedia and Expo **(ICME)**, 2025. <font color="red">CCF B</font>.
 
 [[Paper]](https://arxiv.org/abs/2507.03673) \| [[Github]](https://github.com/hexixiang/TACOS)
-
-</div>
-</div>
-
-<h2 id="preprints">Preprints</h2>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/pub/mtsdpo.jpg' alt="MT-SDPO: answer-verified multi-teacher self-distillation pipeline" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation for Multi-Domain LLMs**](https://arxiv.org/abs/2609.02548)
-
-🧑‍💻 **Xixiang He**, Xingming Li, Baiqi Wu, Qiyao Sun, Xuanyu Ji, Ao Cheng, Qingyong Hu#
-
-arXiv preprint, 2026.
-
-[[Paper]](https://arxiv.org/abs/2609.02548) \| [[Github]](https://github.com/hexixiang/MT-SDPO)
 
 </div>
 </div>
