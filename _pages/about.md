@@ -102,75 +102,111 @@ I am always glad to talk about research or collaboration &mdash; feel free to re
 
 # 📝 Publications
 
-<div style="font-size: 0.92em; color: #666; margin-bottom: 2px;">
-<sup>*</sup> denotes the corresponding author. Full list on <a href="https://scholar.google.com/citations?user=724HNF4AAAAJ&hl=en">Google Scholar</a>.
+<h2 id="accepted-papers">Accepted Papers</h2>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='images/pub/stembind.jpg' alt="StemBind benchmark taxonomy and hierarchical P/R/F annotation per shared stem" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**StemBind: When MLLMs Get Lost Between Rules and Instances in Abstract Visual Reasoning**](https://arxiv.org/abs/2606.00148)
+
+🧑‍💻 **Xixiang He**, Baiqi Wu, Xingming Li, Ao Cheng, Qiyao Sun, Xuanyu Ji, Qingyong Hu#
+
+🏛️ Conference on Neural Information Processing Systems **(NeurIPS)**, Evaluations & Datasets Track, 2026. <font color="red">CCF A</font>.
+
+[[Paper]](https://arxiv.org/abs/2606.00148) \| [[Project]](https://hexixiang.github.io/StemBind/) \| [[Github]](https://github.com/hexixiang/StemBind) \| [[Dataset]](https://huggingface.co/datasets/user48271/Stembind)
+
+</div>
 </div>
 
-<style>
-.publication-list { margin: 8px 0 0 0; padding: 0; list-style: none; }
-.publication-item { border-bottom: 1px solid #efefef; padding: 18px 0; }
-.publication-item:first-child { padding-top: 10px; }
-.publication-item:last-child { border-bottom: none; }
-.pub-title { font-size: 1.04em; font-weight: 700; line-height: 1.35; }
-.pub-title a { color: #00369f; }
-.pub-authors { margin-top: 6px; color: #333; line-height: 1.45; }
-.pub-venue { margin-top: 6px; color: #666; line-height: 1.4; }
-.pub-badge {
-  display: inline-block; margin-right: 8px; padding: 2px 8px; border-radius: 4px;
-  background: #eef4ff; color: #00369f; font-size: 0.82em; font-weight: 700; white-space: nowrap;
-}
-.pub-badge.pub-badge-preprint { background: #f3f3f5; color: #555; }
-.pub-links { margin-top: 6px; font-size: 0.9em; }
-.pub-links a {
-  display: inline-block; margin-right: 10px; padding: 1px 9px;
-  border: 1px solid #d8e3fb; border-radius: 999px; color: #1a4f9c; text-decoration: none;
-}
-</style>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/pub/avspo.jpg' alt="AVSPO framework: ACR monitor triggers virtual reward injection to restore advantage variance" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-<ol class="publication-list">
-  <li class="publication-item">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2606.00148">StemBind: When MLLMs Get Lost Between Rules and Instances in Abstract Visual Reasoning</a></div>
-    <div class="pub-authors"><strong><u>Xixiang He</u></strong>, Baiqi Wu, Xingming Li, Ao Cheng, Qiyao Sun, Xuanyu Ji, Qingyong Hu<sup>*</sup></div>
-    <div class="pub-venue"><span class="pub-badge">NeurIPS 2026</span> Conference on Neural Information Processing Systems (Evaluations &amp; Datasets Track), 2026</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2606.00148">arXiv</a><a href="https://hexixiang.github.io/StemBind/">Project Page</a><a href="https://github.com/hexixiang/StemBind">Code</a><a href="https://huggingface.co/datasets/user48271/Stembind">Dataset</a></div>
-  </li>
-  <li class="publication-item">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2609.02548">Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation for Multi-Domain LLMs</a></div>
-    <div class="pub-authors"><strong><u>Xixiang He</u></strong>, Xingming Li, Baiqi Wu, Qiyao Sun, Xuanyu Ji, Ao Cheng, Qingyong Hu<sup>*</sup></div>
-    <div class="pub-venue"><span class="pub-badge pub-badge-preprint">Preprint</span> arXiv preprint arXiv:2609.02548, 2026</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2609.02548">arXiv</a><a href="https://github.com/hexixiang/MT-SDPO">Code</a></div>
-  </li>
-  <li class="publication-item">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2605.21125">Advantage Collapse in Group Relative Policy Optimization: Diagnosis and Mitigation</a></div>
-    <div class="pub-authors"><strong><u>Xixiang He</u></strong>, Qiyao Sun, Ao Cheng, Xingming Li, Xuanyu Ji, Hailun Lu, Runke Huang, Qingyong Hu<sup>*</sup></div>
-    <div class="pub-venue"><span class="pub-badge">ICML 2026</span> International Conference on Machine Learning, 2026</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2605.21125">arXiv</a><a href="https://qingyonghu.github.io/AVSPO/">Project Page</a></div>
-  </li>
-  <li class="publication-item">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2507.03673">TACOS: Open Tagging and Comparative Scoring for Instruction Fine-Tuning Data Selection</a></div>
-    <div class="pub-authors"><strong><u>Xixiang He</u></strong>, Hao Yu, Qiyao Sun, Ao Cheng, Tailai Zhang, Cong Liu, Shuxuan Guo<sup>*</sup></div>
-    <div class="pub-venue"><span class="pub-badge">ICME 2025</span> IEEE International Conference on Multimedia and Expo, 2025</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2507.03673">arXiv</a></div>
-  </li>
-  <li class="publication-item">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2603.22763">ENC-Bench: A Benchmark for Evaluating Multimodal Large Language Models in Electronic Navigational Chart Understanding</a></div>
-    <div class="pub-authors">Ao Cheng, Xingming Li, Xuanyu Ji, <strong><u>Xixiang He</u></strong>, Qiyao Sun, Chunping Qiu, Runke Huang, Qingyong Hu<sup>*</sup></div>
-    <div class="pub-venue"><span class="pub-badge">CVPR 2026 Highlight</span> IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2603.22763">arXiv</a><a href="https://qingyonghu.github.io/ENC-Bench/">Project Page</a><a href="https://github.com/QingyongHu/ENC-Bench">Code</a></div>
-  </li>
-  <li class="publication-item">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2603.22812">Efficient Hallucination Detection: Adaptive Bayesian Estimation of Semantic Entropy with Guided Semantic Exploration</a></div>
-    <div class="pub-authors">Qiyao Sun, Xingming Li, <strong><u>Xixiang He</u></strong>, Ao Cheng, Xuanyu Ji, Hailun Lu, Runke Huang, Qingyong Hu<sup>*</sup></div>
-    <div class="pub-venue"><span class="pub-badge">AAAI 2026 Oral</span> AAAI Conference on Artificial Intelligence, 2026</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2603.22812">arXiv</a><a href="https://qingyonghu.github.io/Efficient-Hallucination-Detection/">Project Page</a></div>
-  </li>
-  <li class="publication-item">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2606.17953">MLLMs Get It Right, Then Get It Wrong: Tracing and Correcting Late-Layer Textual Bias</a></div>
-    <div class="pub-authors">Xingming Li, Ao Cheng, Qiyao Sun, <strong><u>Xixiang He</u></strong>, Xuanyu Ji, Runke Huang, Qingyong Hu<sup>*</sup></div>
-    <div class="pub-venue"><span class="pub-badge">IJCAI-ECAI 2026</span> International Joint Conference on Artificial Intelligence, 2026</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2606.17953">arXiv</a><a href="https://qingyonghu.github.io/CALRD/">Project Page</a></div>
-  </li>
-</ol>
+[**Advantage Collapse in Group Relative Policy Optimization: Diagnosis and Mitigation**](https://arxiv.org/abs/2605.21125)
+
+🧑‍💻 **Xixiang He**, Qiyao Sun, Ao Cheng, Xingming Li, Xuanyu Ji, Hailun Lu, Runke Huang, Qingyong Hu#
+
+🏛️ International Conference on Machine Learning **(ICML)**, 2026. <font color="red">CCF A</font>.
+
+[[Paper]](https://arxiv.org/abs/2605.21125) \| [[Project]](https://qingyonghu.github.io/AVSPO/)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2026</div><img src='images/pub/calrd.jpg' alt="CALRD teaser: MLLMs reach the right answer in middle layers and lose it to textual bias in late layers" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**MLLMs Get It Right, Then Get It Wrong: Tracing and Correcting Late-Layer Textual Bias**](https://arxiv.org/abs/2606.17953)
+
+🧑‍💻 Xingming Li, Ao Cheng, Qiyao Sun, **Xixiang He**, Xuanyu Ji, Runke Huang, Qingyong Hu#
+
+🏛️ International Joint Conference on Artificial Intelligence **(IJCAI-ECAI)**, 2026. <font color="red">CCF A</font>.
+
+[[Paper]](https://arxiv.org/abs/2606.17953) \| [[Project]](https://qingyonghu.github.io/CALRD/)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Highlight</div><img src='images/pub/encbench.jpg' alt="ENC-Bench overview of electronic navigational chart understanding tasks" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**ENC-Bench: A Benchmark for Evaluating Multimodal Large Language Models in Electronic Navigational Chart Understanding**](https://arxiv.org/abs/2603.22763)
+
+🧑‍💻 Ao Cheng, Xingming Li, Xuanyu Ji, **Xixiang He**, Qiyao Sun, Chunping Qiu, Runke Huang, Qingyong Hu#
+
+🏛️ IEEE/CVF Conference on Computer Vision and Pattern Recognition **(CVPR)**, 2026. <font color="red">CCF A, Highlight</font>.
+
+[[Paper]](https://arxiv.org/abs/2603.22763) \| [[Project]](https://qingyonghu.github.io/ENC-Bench/) \| [[Github]](https://github.com/QingyongHu/ENC-Bench)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/pub/hallucination.jpg' alt="Adaptive Bayesian estimation of semantic entropy for hallucination detection" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Efficient Hallucination Detection: Adaptive Bayesian Estimation of Semantic Entropy with Guided Semantic Exploration**](https://arxiv.org/abs/2603.22812)
+
+🧑‍💻 Qiyao Sun, Xingming Li, **Xixiang He**, Ao Cheng, Xuanyu Ji, Hailun Lu, Runke Huang, Qingyong Hu#
+
+🏛️ AAAI Conference on Artificial Intelligence **(AAAI)**, 2026. <font color="red">CCF A, Oral</font>.
+
+[[Paper]](https://arxiv.org/abs/2603.22812) \| [[Project]](https://qingyonghu.github.io/Efficient-Hallucination-Detection/)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICME 2025</div><img src='images/pub/tacos.jpg' alt="TACOS: open tagging and comparative scoring for instruction data selection" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**TACOS: Open Tagging and Comparative Scoring for Instruction Fine-Tuning Data Selection**](https://arxiv.org/abs/2507.03673)
+
+🧑‍💻 **Xixiang He**, Hao Yu, Qiyao Sun, Ao Cheng, Tailai Zhang, Cong Liu, Shuxuan Guo#
+
+🏛️ IEEE International Conference on Multimedia and Expo **(ICME)**, 2025. <font color="red">CCF B</font>.
+
+[[Paper]](https://arxiv.org/abs/2507.03673) \| [[Github]](https://github.com/hexixiang/TACOS)
+
+</div>
+</div>
+
+<h2 id="preprints">Preprints</h2>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/pub/mtsdpo.jpg' alt="MT-SDPO: answer-verified multi-teacher self-distillation pipeline" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation for Multi-Domain LLMs**](https://arxiv.org/abs/2609.02548)
+
+🧑‍💻 **Xixiang He**, Xingming Li, Baiqi Wu, Qiyao Sun, Xuanyu Ji, Ao Cheng, Qingyong Hu#
+
+arXiv preprint, 2026.
+
+[[Paper]](https://arxiv.org/abs/2609.02548) \| [[Github]](https://github.com/hexixiang/MT-SDPO)
+
+</div>
+</div>
+
+<div style="font-size: 0.92em; color: #666; margin-top: 14px;">
+<i>#</i> Corresponding author. Full list on <a href="https://scholar.google.com/citations?user=724HNF4AAAAJ&hl=en">Google Scholar</a>.
+</div>
 
 </div>
 
