@@ -64,6 +64,10 @@ My research is about making large models more <strong>efficient</strong> and mor
 I am always glad to talk about research or collaboration &mdash; feel free to reach out by <a href="mailto:hexixiang@nudt.edu.cn">email</a>.
 </div>
 
+<div style="margin-top: 12px;">
+  <a href="https://github.com/hexixiang"><img src="https://img.shields.io/github/stars/hexixiang?affiliations=OWNER%2CCOLLABORATOR&style=flat&logo=github&logoColor=000000&label=GitHub%20Stars&labelColor=f0f0f0&color=8fb9ef" alt="GitHub Stars"></a>
+</div>
+
 <div style="margin-top: 18px; background: #f4f7ff; border: 1px solid #d8e3fb; border-radius: 12px; padding: 14px 18px;">
   <div style="font-size: 0.82em; font-weight: 700; color: #1a73e8; text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 10px;">Research Interests</div>
   <div class="research-tags">
@@ -127,8 +131,8 @@ I am always glad to talk about research or collaboration &mdash; feel free to re
   <li class="publication-item">
     <div class="pub-title"><a href="https://arxiv.org/abs/2606.00148">StemBind: When MLLMs Get Lost Between Rules and Instances in Abstract Visual Reasoning</a></div>
     <div class="pub-authors"><strong><u>Xixiang He</u></strong>, Baiqi Wu, Xingming Li, Ao Cheng, Qiyao Sun, Xuanyu Ji, Qingyong Hu<sup>*</sup></div>
-    <div class="pub-venue"><span class="pub-badge">NeurIPS 2026</span> Conference on Neural Information Processing Systems, 2026</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2606.00148">arXiv</a><a href="https://hexixiang.github.io/StemBind/">Project Page</a></div>
+    <div class="pub-venue"><span class="pub-badge">NeurIPS 2026</span> Conference on Neural Information Processing Systems (Evaluations &amp; Datasets Track), 2026</div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2606.00148">arXiv</a><a href="https://hexixiang.github.io/StemBind/">Project Page</a><a href="https://github.com/hexixiang/StemBind">Code</a><a href="https://huggingface.co/datasets/user48271/Stembind">Dataset</a></div>
   </li>
   <li class="publication-item">
     <div class="pub-title"><a href="https://arxiv.org/abs/2609.02548">Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation for Multi-Domain LLMs</a></div>
@@ -140,7 +144,7 @@ I am always glad to talk about research or collaboration &mdash; feel free to re
     <div class="pub-title"><a href="https://arxiv.org/abs/2605.21125">Advantage Collapse in Group Relative Policy Optimization: Diagnosis and Mitigation</a></div>
     <div class="pub-authors"><strong><u>Xixiang He</u></strong>, Qiyao Sun, Ao Cheng, Xingming Li, Xuanyu Ji, Hailun Lu, Runke Huang, Qingyong Hu<sup>*</sup></div>
     <div class="pub-venue"><span class="pub-badge">ICML 2026</span> International Conference on Machine Learning, 2026</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2605.21125">arXiv</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2605.21125">arXiv</a><a href="https://qingyonghu.github.io/AVSPO/">Project Page</a></div>
   </li>
   <li class="publication-item">
     <div class="pub-title"><a href="https://arxiv.org/abs/2507.03673">TACOS: Open Tagging and Comparative Scoring for Instruction Fine-Tuning Data Selection</a></div>
@@ -152,19 +156,19 @@ I am always glad to talk about research or collaboration &mdash; feel free to re
     <div class="pub-title"><a href="https://arxiv.org/abs/2603.22763">ENC-Bench: A Benchmark for Evaluating Multimodal Large Language Models in Electronic Navigational Chart Understanding</a></div>
     <div class="pub-authors">Ao Cheng, Xingming Li, Xuanyu Ji, <strong><u>Xixiang He</u></strong>, Qiyao Sun, Chunping Qiu, Runke Huang, Qingyong Hu<sup>*</sup></div>
     <div class="pub-venue"><span class="pub-badge">CVPR 2026 Highlight</span> IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2603.22763">arXiv</a><a href="https://github.com/QingyongHu/ENC-Bench">Code</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2603.22763">arXiv</a><a href="https://qingyonghu.github.io/ENC-Bench/">Project Page</a><a href="https://github.com/QingyongHu/ENC-Bench">Code</a></div>
   </li>
   <li class="publication-item">
     <div class="pub-title"><a href="https://arxiv.org/abs/2603.22812">Efficient Hallucination Detection: Adaptive Bayesian Estimation of Semantic Entropy with Guided Semantic Exploration</a></div>
     <div class="pub-authors">Qiyao Sun, Xingming Li, <strong><u>Xixiang He</u></strong>, Ao Cheng, Xuanyu Ji, Hailun Lu, Runke Huang, Qingyong Hu<sup>*</sup></div>
     <div class="pub-venue"><span class="pub-badge">AAAI 2026 Oral</span> AAAI Conference on Artificial Intelligence, 2026</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2603.22812">arXiv</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2603.22812">arXiv</a><a href="https://qingyonghu.github.io/Efficient-Hallucination-Detection/">Project Page</a></div>
   </li>
   <li class="publication-item">
-    <div class="pub-title"><a href="https://qingyonghu.github.io/CALRD/">MLLMs Get It Right, Then Get It Wrong: Tracing and Correcting Late-Layer Textual Bias</a></div>
+    <div class="pub-title"><a href="https://arxiv.org/abs/2606.17953">MLLMs Get It Right, Then Get It Wrong: Tracing and Correcting Late-Layer Textual Bias</a></div>
     <div class="pub-authors">Xingming Li, Ao Cheng, Qiyao Sun, <strong><u>Xixiang He</u></strong>, Xuanyu Ji, Runke Huang, Qingyong Hu<sup>*</sup></div>
     <div class="pub-venue"><span class="pub-badge">IJCAI-ECAI 2026</span> International Joint Conference on Artificial Intelligence, 2026</div>
-    <div class="pub-links"><a href="https://qingyonghu.github.io/CALRD/">Project Page</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2606.17953">arXiv</a><a href="https://qingyonghu.github.io/CALRD/">Project Page</a></div>
   </li>
 </ol>
 
