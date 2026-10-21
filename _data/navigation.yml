@@ -11,5 +11,8 @@ main:
   - title: "Publications"
     url: "/#publications"
 
+  - title: "Resources"
+    url: "/#open-source-resources"
+
   - title: "Educations"
     url: "/#educations"

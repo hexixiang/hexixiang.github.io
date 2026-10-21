@@ -41,6 +41,40 @@ redirect_from:
   flex-wrap: wrap;
   gap: 0.5rem 0.6rem;
 }
+.interest-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+.interest-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.6rem;
+}
+.interest-works {
+  font-size: 0.9em;
+  color: #555;
+}
+.interest-works a {
+  color: #1a4f9c;
+  font-weight: 600;
+}
+.first-author {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 8px;
+  border-radius: 4px;
+  background: #fff1e6;
+  color: #c2410c;
+  font-size: 0.78em;
+  font-weight: 700;
+  white-space: nowrap;
+  vertical-align: 1px;
+}
+.resource-list { margin: 0; padding-left: 1.2em; }
+.resource-list li { margin: 0 0 12px 0; line-height: 1.55; }
+.resource-list li:last-child { margin-bottom: 0; }
 .research-tag {
   display: inline-block;
   padding: 0.32rem 0.75rem;
@@ -61,6 +95,8 @@ I am a Ph.D. student (Sep. 2022 &ndash; present) at the <a href="https://english
 <br><br>
 My research is about making large models more <strong>efficient</strong> and more <strong>reliable</strong>: which data is worth fine-tuning on, why reinforcement learning for reasoning collapses and how to fix it, how to tell when a model is hallucinating, and how well multimodal models actually reason rather than pattern-match. Recently I have been especially interested in <strong>distillation and multi-teacher supervision</strong> for multi-domain LLMs.
 <br><br>
+So far I have first-authored papers at <strong>NeurIPS</strong>, <strong>ICML</strong> and <strong>ICME</strong>, and co-authored work at <strong>CVPR</strong> (Highlight), <strong>AAAI</strong> (Oral) and <strong>IJCAI</strong>.
+<br><br>
 I am always glad to talk about research or collaboration &mdash; feel free to reach out by <a href="mailto:hexixiang@nudt.edu.cn">email</a>.
 </div>
 
@@ -70,12 +106,12 @@ I am always glad to talk about research or collaboration &mdash; feel free to re
 
 <div style="margin-top: 18px; background: #f4f7ff; border: 1px solid #d8e3fb; border-radius: 12px; padding: 14px 18px;">
   <div style="font-size: 0.82em; font-weight: 700; color: #1a73e8; text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 10px;">Research Interests</div>
-  <div class="research-tags">
-    <span class="research-tag">📊 Data-Centric Post-Training</span>
-    <span class="research-tag">🎯 RL for LLM Reasoning</span>
-    <span class="research-tag">🧪 Knowledge Distillation</span>
-    <span class="research-tag">🔍 Trustworthy LLMs</span>
-    <span class="research-tag">👁️ Multimodal Reasoning</span>
+  <div class="interest-list">
+    <div class="interest-row"><span class="research-tag">📊 Data-Centric Post-Training</span><span class="interest-works"><a href="https://arxiv.org/abs/2507.03673">TACOS</a></span></div>
+    <div class="interest-row"><span class="research-tag">🎯 RL for LLM Reasoning</span><span class="interest-works"><a href="https://arxiv.org/abs/2605.21125">AVSPO</a></span></div>
+    <div class="interest-row"><span class="research-tag">🧪 Knowledge Distillation</span><span class="interest-works"><a href="https://arxiv.org/abs/2609.02548">MT-SDPO</a></span></div>
+    <div class="interest-row"><span class="research-tag">🔍 Trustworthy LLMs</span><span class="interest-works"><a href="https://arxiv.org/abs/2603.22812">Efficient Hallucination Detection</a>, <a href="https://arxiv.org/abs/2606.17953">CALRD</a></span></div>
+    <div class="interest-row"><span class="research-tag">👁️ Multimodal Reasoning</span><span class="interest-works"><a href="https://arxiv.org/abs/2606.00148">StemBind</a>, <a href="https://arxiv.org/abs/2603.22763">ENC-Bench</a></span></div>
   </div>
 </div>
 
@@ -109,7 +145,7 @@ I am always glad to talk about research or collaboration &mdash; feel free to re
 
 [**Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation for Multi-Domain LLMs**](https://arxiv.org/abs/2609.02548)
 
-🧑‍💻 **Xixiang He**, Xingming Li, Baiqi Wu, Qiyao Sun, Xuanyu Ji, Ao Cheng, Qingyong Hu#
+🧑‍💻 **Xixiang He**, Xingming Li, Baiqi Wu, Qiyao Sun, Xuanyu Ji, Ao Cheng, Qingyong Hu# <span class="first-author">First Author</span>
 
 arXiv preprint, 2026.
 
@@ -125,7 +161,7 @@ arXiv preprint, 2026.
 
 [**StemBind: When MLLMs Get Lost Between Rules and Instances in Abstract Visual Reasoning**](https://arxiv.org/abs/2606.00148)
 
-🧑‍💻 **Xixiang He**, Baiqi Wu, Xingming Li, Ao Cheng, Qiyao Sun, Xuanyu Ji, Qingyong Hu#
+🧑‍💻 **Xixiang He**, Baiqi Wu, Xingming Li, Ao Cheng, Qiyao Sun, Xuanyu Ji, Qingyong Hu# <span class="first-author">First Author</span>
 
 🏛️ Conference on Neural Information Processing Systems **(NeurIPS)**, Evaluations & Datasets Track, 2026. <font color="red">CCF A</font>.
 
@@ -139,7 +175,7 @@ arXiv preprint, 2026.
 
 [**Advantage Collapse in Group Relative Policy Optimization: Diagnosis and Mitigation**](https://arxiv.org/abs/2605.21125)
 
-🧑‍💻 **Xixiang He**, Qiyao Sun, Ao Cheng, Xingming Li, Xuanyu Ji, Hailun Lu, Runke Huang, Qingyong Hu#
+🧑‍💻 **Xixiang He**, Qiyao Sun, Ao Cheng, Xingming Li, Xuanyu Ji, Hailun Lu, Runke Huang, Qingyong Hu# <span class="first-author">First Author</span>
 
 🏛️ International Conference on Machine Learning **(ICML)**, 2026. <font color="red">CCF A</font>.
 
@@ -195,7 +231,7 @@ arXiv preprint, 2026.
 
 [**TACOS: Open Tagging and Comparative Scoring for Instruction Fine-Tuning Data Selection**](https://arxiv.org/abs/2507.03673)
 
-🧑‍💻 **Xixiang He**, Hao Yu, Qiyao Sun, Ao Cheng, Tailai Zhang, Cong Liu, Shuxuan Guo#
+🧑‍💻 **Xixiang He**, Hao Yu, Qiyao Sun, Ao Cheng, Tailai Zhang, Cong Liu, Shuxuan Guo# <span class="first-author">First Author</span>
 
 🏛️ IEEE International Conference on Multimedia and Expo **(ICME)**, 2025. <font color="red">CCF B</font>.
 
@@ -236,6 +272,21 @@ arXiv preprint, 2026.
 
 <div class="section-card" markdown="1">
 
+# 🧰 Open-Source Resources
+
+<ul class="resource-list">
+  <li><strong>StemBind Benchmark</strong> &mdash; a shared-stem diagnostic benchmark for abstract visual reasoning in MLLMs: 2,298 stems and 19,533 perception / rule / full-item tasks, with S1&ndash;S4 process annotations and a public leaderboard.<br>
+  <a href="https://huggingface.co/datasets/user48271/Stembind">[Dataset]</a> | <a href="https://github.com/hexixiang/StemBind">[Github]</a> | <a href="https://hexixiang.github.io/StemBind/#leaderboard">[Leaderboard]</a></li>
+  <li><strong>MT-SDPO</strong> &mdash; training code for answer-verified multi-teacher distillation, with the SciKnowEval-L3 splits, teacher-generated SFT data and the frozen evaluation protocol.<br>
+  <a href="https://github.com/hexixiang/MT-SDPO">[Github]</a></li>
+  <li><strong>TACOS</strong> &mdash; instruction-tuning data selection code, the curated fine-tuning dataset, and the fine-tuning, inference and evaluation scripts.<br>
+  <a href="https://github.com/hexixiang/TACOS">[Github]</a></li>
+</ul>
+
+</div>
+
+<div class="section-card" markdown="1">
+
 # 📖 Educations
 
 <ul class="timeline">
@@ -252,52 +303,3 @@ arXiv preprint, 2026.
 </ul>
 
 </div>
-
-<!-- ============================================================
-     OPTIONAL SECTIONS — uncomment and fill in when you have the
-     content. Each block is self-contained and already styled.
-     ============================================================
-
-<div class="section-card" markdown="1">
-
-# 🏆 Honors and Awards
-
-<ul class="timeline">
-  <li>
-    <span class="tl-period">2025</span>
-    <div class="tl-body">National Scholarship</div>
-  </li>
-</ul>
-
-</div>
-
-<div class="section-card" markdown="1">
-
-# 💬 Invited Talks
-
-<ul class="timeline">
-  <li>
-    <span class="tl-period">2026.05</span>
-    <div class="tl-body"><strong>Talk title here</strong></div>
-    <div class="tl-sub"><a href="#">▶ Watch Video</a></div>
-  </li>
-</ul>
-
-</div>
-
-<div class="section-card" markdown="1">
-
-# 🧑‍🏫 Academic Services
-
-<p style="margin-bottom: 0.7rem;">Reviewer for:</p>
-<div class="research-tags">
-  <span class="research-tag">NeurIPS</span>
-  <span class="research-tag">ICML</span>
-  <span class="research-tag">ICLR</span>
-  <span class="research-tag">CVPR</span>
-  <span class="research-tag">ACL</span>
-</div>
-
-</div>
-
-============================================================ -->
